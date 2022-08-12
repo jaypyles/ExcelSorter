@@ -31,6 +31,7 @@ Search_terms will create a list that contains terms to search for
 def search_terms():
     while True:
         search_term=[]
+        print("When finished entering search terms, please type 'done'.")
         x = str(input("Enter search term:"))
         search_term.append(x)
         if x == "done":
